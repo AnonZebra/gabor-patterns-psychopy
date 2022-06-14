@@ -1,0 +1,10 @@
+.vscode
+.DS_Store
+stimuli/
+data/
+data_demo/
+DEMO_gabor_object_recognition.py
+*lastrun.py
+__pycache__/
+Old\ files/
+LICENSE

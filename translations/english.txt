@@ -1,0 +1,33 @@
+# ENGLISH TRANSLATION, TO BE COPIED INTO PSYCHOPY TEXT COMPONENTS
+
+# FOR: text_instructions_part_one
+You will see images that change over time.
+
+Throughout the experiment, you will see a white dot in the center of the screen. Keep your eyes on it.
+
+In some pictures, but not all, there is a pattern.
+
+Press the left button to see an example of when there is a pattern.
+
+
+--------------------------------------------------------
+# FOR: text_instructions_inter_demo
+Did you see the pattern?
+
+Press the left button to see an example of when there is no pattern.
+
+
+--------------------------------------------------------
+# FOR: text_instructions_part_two
+Some of the images you see will have patterns, as in the first example.
+
+As soon as you see a pattern during the experiment, press the left button.
+
+When you have pressed the button, two small white boxes are shown.
+
+The experiment takes about ten minutes. A message will appear when you are done.
+
+
+--------------------------------------------------------
+# FOR: end_text
+The experiment is now finished. Thank you!

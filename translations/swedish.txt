@@ -1,0 +1,33 @@
+# SWEDISH TRANSLATION, TO BE COPIED INTO PSYCHOPY TEXT COMPONENTS
+
+# FOR: text_instructions_part_one
+Du kommer att visas bilder som ändras över tid.
+
+Under hela experimentet kommer du att se en vit prick i mitten av skärmen. Håll blicken riktad mot den.
+
+I vissa bilder, men inte alla, finns ett mönster. 
+
+Tryck på vänster knapp för att se ett exempel på när det finns ett mönster.
+
+
+--------------------------------------------------------
+# FOR: text_instructions_inter_demo
+Såg du mönstret?
+
+Tryck på vänster knapp för att se ett exempel på när det inte finns ett mönster.
+
+
+--------------------------------------------------------
+# FOR: text_instructions_part_two
+En del av bilderna du får se kommer ha mönster, som i det första exemplet.
+
+Så snart du ser ett mönster under experimentet, tryck på vänster knapp.
+
+När du gjort ett tryck så visas två små vita rutor.
+
+Experimentet tar cirka tio minuter. Ett meddelande kommer att visas när du är klar.
+
+
+--------------------------------------------------------
+# FOR: end_text
+Nu är experimentet klart. Tack!
