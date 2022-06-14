@@ -1,4 +1,6 @@
 # Gabor Object Recognition PsychoPy Experiment
+<img width="400px" alt="Animated GIF showing example trials." src="./example_images/ex_trials.gif">
+
 This is a [Psychopy](https://psychopy.org) project consisting of an experiment based on a task described in an [article by Sapey-Triomphe et al.](https://www.sciencedirect.com/science/article/pii/S2213158220300346). In each experiment trial, participants are shown reels of images (videos) with 'Gabor patches'. Throughout each reel, the gabor patches shift slightly in orientation. In some trials, the end result is that the gabor patches form a pattern (e.g. an object like a car, or a more amorphous shape/'blob') - in other trials, the end result is entirely random, with no particular pattern. Participants are asked to press a key (or a button, if using a button pad configured to send keyboard signal) whenever they perceive a pattern.
 
 The experiment was designed to be run during fMRI scanning - see 'Configuring the experiment' below if you wish to run it outside of a scanner.
@@ -89,6 +91,6 @@ __THIS SECTION IS A DRAFT, AND TO BE UPDATED: you are currently not allowed to s
 This Psychopy experiment was coded at Karolinska Institutet (KI) by Lowe Wilsson, while working in Janina Neufeld's research group. The experiment itself is based on, and uses stimuli from, this article:
 > Sapey-Triomphe, L.-A., Boets, B., Van Eylen, L., Noens, I., Sunaert, S., Steyaert, J., & Wagemans, J. (2020). Ventral stream hierarchy underlying perceptual organization in adolescents with autism. NeuroImage: Clinical, 25, 102197.
 
-Note that there are some differences between this experiment and the original task described by Sapey-Triomphe et al. Please compare the article with the information in this README and in the PsychoPy Builder project itself for details. Decisions on modifications of experiment design were primarily made by Janina Neufeld at KI and Tessa M. van Leeuwen of Radboud University.
+Note that there are some differences between this experiment and the original task described by Sapey-Triomphe et al. The greatest differences are described above, but you may wish to also compare the article with the information in this README and in the PsychoPy Builder project itself for additional details. Decisions on modifications of experiment design were primarily made by Janina Neufeld at KI and Tessa M. van Leeuwen of Radboud University.
 
 You are free to use and modify this experiment for non-commercial purposes (e.g. research is OK) __with attribution__. If you publish articles or share other work based on this project (e.g. if you share a modified version of it), you are required to cite the Sapey-Triomphe et al. article above and link to this project's [GitHub repository](https://github.com/AnonZebra/gabor-patterns-psychopy). Please make sure to note, e.g. in the methodology section, that this experiment is not exactly the same as that used by Sapey-Triomphe et al.
