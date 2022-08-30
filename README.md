@@ -5,6 +5,8 @@ This is a [Psychopy](https://psychopy.org) project consisting of an experiment b
 
 The experiment was designed to be run during fMRI scanning - see 'Configuring the experiment' below if you wish to run it outside of a scanner.
 
+__PLEASE NOTE__ that in order for this project/experiment to work, you _must_ have stimuli files from Sapey-Triomphe et al. (see section 'Attributions'), and have added them to the project as described in the section 'Stimuli' below.
+
 ## Running the experiment
 1. Install [Standalone PsychoPy](https://www.psychopy.org/download.html).
 2. Download this project, by either using the green 'code' button and selecting 'Download ZIP', or by using `git clone` if you know Git.
@@ -40,7 +42,26 @@ You need to find out what signal the MR scanner sends to tell the experiment com
 Many of the relevant configurations, e.g. what keyboard key signals to interpret as 'left/right button' and duration of each image in the trial 'reels', are specified in the 'code_constants' component mentioned above. Other changes are made in the other routines/components making up the experiment.
 
 ## Stimuli
-__TO BE ADDED__
+This experiment uses stimuli from the original article by Sapey-Triomphe et al. (see 'Attributions' below). Unfortunately, the stimuli cannot be included in this repository. If you are given permission by Sapey-Triomphe & colleagues to use their experiment, and are sent a copy of their stimuli, the images should be placed inside of a 'stimuli' directory in a directory hierarchy as follows:
+
+```bash
+stimuli
+├── Gabor stimuli Sapey Boets
+│   ├── RFP_OPP
+│   ├── RFP_RCP
+│   ├── RFP_RCR
+│   ├── RFP_RRR
+│   └── Snod_RCP
+└── grey
+```
+
+The directories should contain image sequences as follows:
+* RFP_RRR: Random pattern stimuli images
+* RFP_RCR: Contour stimuli images
+* RFP_OPP: Texture stimuli images
+* RFP_RCP: Contour & Texture stimuli images
+* Snod_RCP: Contour # Texture Meaningful stimuli images
+* grey: 'blank' (no stimulus) images
 
 ## Experiment flow / trials
 ### 'Runs'
@@ -87,10 +108,9 @@ The default language is English. In PsychoPy, click the Text Components (e.g. in
 You can find a Swedish translation in the 'translations' directory.
 
 ## Attribution
-__THIS SECTION IS A DRAFT, AND TO BE UPDATED: you are currently not allowed to share/use this experiment, awaiting response from original experiment developers__ 
 This Psychopy experiment was coded at Karolinska Institutet (KI) by Lowe Wilsson, while working in Janina Neufeld's research group. The experiment itself is based on, and uses stimuli from, this article:
 > Sapey-Triomphe, L.-A., Boets, B., Van Eylen, L., Noens, I., Sunaert, S., Steyaert, J., & Wagemans, J. (2020). Ventral stream hierarchy underlying perceptual organization in adolescents with autism. NeuroImage: Clinical, 25, 102197.
 
 Note that there are some differences between this experiment and the original task described by Sapey-Triomphe et al. The greatest differences are described above, but you may wish to also compare the article with the information in this README and in the PsychoPy Builder project itself for additional details. Decisions on modifications of experiment design were primarily made by Janina Neufeld at KI and Tessa M. van Leeuwen of Radboud University.
 
-You are free to use and modify this experiment for non-commercial purposes (e.g. research is OK) __with attribution__. If you publish articles or share other work based on this project (e.g. if you share a modified version of it), you are required to cite the Sapey-Triomphe et al. article above and link to this project's [GitHub repository](https://github.com/AnonZebra/gabor-patterns-psychopy). Please make sure to note, e.g. in the methodology section, that this experiment is not exactly the same as that used by Sapey-Triomphe et al.
+You are _not_ free to use or modify this experiment (Wilsson has contacted Boets but did not get approval for this before Wilsson's employment at Karolinska Institutet ended). You may _only_ use/modify this experiment if you get permission from the original article authors (Sapey-Triomphe et al.; additional permission from Wilsson is not required). Moreover, if you publish articles or share other work based on this project (e.g. if you share a modified version of it), you are required to cite the Sapey-Triomphe et al. article above and link to this project's [GitHub repository](https://github.com/AnonZebra/gabor-patterns-psychopy). Please make sure to note, e.g. in the methodology section, that this experiment is not exactly the same as that used by Sapey-Triomphe et al.
